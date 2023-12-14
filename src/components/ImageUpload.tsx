@@ -18,7 +18,7 @@ export function ImageUpload({ handleFileChange, loading, file, fun }: IProps) {
         
         <CardContent className="p-6">
           <div className="grid w-full max-w-sm items-center gap-4">
-          <CardTitle className="text-gray-800 mb-4">Lets maker fun of Image!</CardTitle>
+          <CardTitle className="text-gray-800 mb-4">See the funny side of an Image!</CardTitle>
             <Label className="text-center" htmlFor="picture-upload">
               Upload your image
             </Label>
