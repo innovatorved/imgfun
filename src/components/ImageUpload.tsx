@@ -1,7 +1,7 @@
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { CardContent, Card } from "@/components/ui/card";
+import { CardContent, Card, CardTitle } from "@/components/ui/card";
 import { SVGProps } from "react";
 
 interface IProps {
@@ -15,8 +15,10 @@ export function ImageUpload({ handleFileChange, loading, file, fun }: IProps) {
   return (
     <div className="flex justify-center items-center h-screen">
       <Card className="max-w-md mx-auto">
+        
         <CardContent className="p-6">
           <div className="grid w-full max-w-sm items-center gap-4">
+          <CardTitle className="text-gray-800 mb-4">Lets maker fun of Image!</CardTitle>
             <Label className="text-center" htmlFor="picture-upload">
               Upload your image
             </Label>
